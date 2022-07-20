@@ -1,0 +1,96 @@
+$textcolor: black,
+
+
+
+;.container {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem;
+    // grid-gap: 1rem;
+    grid-auto-flow: row;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width:max-content;
+    justify-content: center;
+    grid-template-columns: [first] 125px [line2] 400px [line3] auto [line4] auto;
+    color: $textcolor;
+    text-decoration: none;
+}
+;.rowLengths {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+;.tablePage {
+    border-style:solid;
+    border-color: black;
+    border-radius: 25px;
+    padding-bottom: 35px;
+    text-decoration: none;
+}
+
+;.companyRating {
+    border-bottom: 1pt solid lightgray;
+    display: block;
+    text-align: left;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+;.companyName {
+    border-bottom: 1pt solid lightgray;
+    display: block;
+    text-align: left;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+;.totalSpent {
+    border-bottom: 1pt solid lightgray;
+    display: block;
+    text-align: right;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+;.URL {
+    border-bottom: 1pt solid lightgray;
+    display: block;
+    text-align: right;
+    width: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+// ;table {
+//     color: $textcolor;
+//     border-collapse: collapse;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 75%;
+//     overflow: auto;
+//     display: table;
+// }
+
+// ;tr {
+//     border-bottom: 1pt solid lightgray;
+//     text-align: left;
+//     height: 40px;
+//     display: table-row;
+//     width: 100%;
+//     vertical-align: inherit;
+    
+// }
+
+// ;td {
+//     text-align: left;
+//     vertical-align: inherit;
+//     display: inline-block;
+// }
+
+// ;td a {
+//     text-align: left;
+//     display: block;
+// }
